@@ -1,0 +1,1 @@
+{" Object deep_try":{"type":"method","name":"deep_try","children":[],"call":["obj try ","field to_s to_sym ","field to_s ","fields inject "]}}

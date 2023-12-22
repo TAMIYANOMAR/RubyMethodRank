@@ -1,0 +1,1 @@
+{" Coffee Generators AssetsGenerator copy_coffee":{"type":"method","name":"copy_coffee","children":[],"call":[" template ","File  join "," file_name "," class_path "]}," Coffee Rails TemplateHandler call":{"type":"method","name":"call","children":[],"call":[]}," Coffee Rails TemplateHandler erb_handler":{"type":"method","name":"erb_handler","children":[],"call":[]}}

@@ -10,40 +10,59 @@ module LibraryMethodMap
         ExportJsonPath = File.expand_path('../export.json',__FILE__)
         CompedModelPath = File.expand_path('../../comped_model',__FILE__)
         EdgePath = File.expand_path('../../edge/edges.json',__FILE__)
+        DumpedCSVPath = File.expand_path('../../edge/dumped.csv',__FILE__)
 
         def initialize
-            @library_method_map = {}
-            @models = {}
             @lib_haves = {}
-            @edges = []
             library_names = getLibs()
-            count = 0 
-            library_names.each do |libname,versions|
-                if dumped?(libname)
-                    next
-                end
-                lib_model = []
-                versions.each do |version|
-                    ver_model = createLibModel("#{libname}-#{version}")
-                    lib_model << getMethodNamespace(ver_model)
-                end
-                comped_model = modelComp(lib_model)
-                @models[libname] = linkAsgn(comped_model)
-                dumpCompedModel(libname,comped_model)
-            end
-            # @models = loadCompedModels()
-            # @models.each do |libname,lib_model|
-            #     depend_libs = getDependLibs(libname)
-            #     if depend_libs == nil
+
+            # library_names.each do |libname,versions|
+            #     if dumped?(libname)
             #         next
             #     end
-            #     depend_libs.each do |depend_lib|
-            #         # JSON.dump(@models[depend_lib].keys(),File.open(ExportJsonPath,'w'))
-            #         @edges += getMethodEdge(lib_model,@models[depend_lib],libname,depend_lib)
+            #     pp libname
+            #     @comped_model = {}
+            #     versions.each do |version|
+            #         pp version
+            #         ver_model = getMethodNamespace(createLibModel("#{libname}-#{version}"))
+            #         modelComp(ver_model)
+            #         pp @comped_model.keys()
             #     end
+            #     @models = linkAsgn(@comped_model)
+            #     dumpCompedModel(libname,@models)
             # end
-            # dumpEdges()
+            library_names.each do |libname,versions|
+                pp "libname:#{libname}"
+                if edgeDumped?(libname)
+                    next
+                end
+                edges = []
+                lib_model = loadCompedModel(libname)
+                depend_libs = getDependLibs(libname)
+                
+                if depend_libs == nil
+                    next
+                end
+                depend_libs.each do |depend_lib|
+                    pp "depend_lib:#{depend_lib}"
+                    depend_model = loadCompedModel(depend_lib)
+                    edges += getMethodEdge(lib_model,depend_model,libname,depend_lib)
+                end
+                dumpEdges(edges,libname)
+                file = File.open(DumpedCSVPath,'a')
+                file.puts(libname)
+            end
+            
 
+        end
+
+        def edgeDumped?(libname)
+            CSV.foreach(DumpedCSVPath) do |row|
+                if row[0] == libname
+                    return true
+                end
+            end
+            return false
         end
 
         def dumpCompedModel(lib_name,comped_model)
@@ -59,8 +78,19 @@ module LibraryMethodMap
             return comped_models
         end
 
-        def dumpEdges()
-            JSON.dump(@edges,File.open(EdgePath,'w'))
+        def loadCompedModel(lib_name)
+            json_file = File.read("#{CompedModelPath}/#{lib_name}.json")
+            comped_model = JSON.parse(json_file)
+            return comped_model
+        end
+
+        def dumpEdges(edges,lib_name)
+            edges.each do |edge|
+                File.open(EdgePath,'a') do |f|
+                    JSON.dump(edge,f)
+                    f.puts(',')
+                end
+            end
         end
 
         def dumped?(libname)
@@ -137,26 +167,24 @@ module LibraryMethodMap
             return method_namespace
         end
 
-        def modelComp(lib_method_namespace)
-            comped_model = {}
-            lib_method_namespace.each do |ver_method_namespace|   
-                # JSON.dump(ver_method_namespace,File.open(ExportJsonPath,'w'))
-                ver_method_namespace.each do |method_namespace|
-                    if method_namespace == nil
-                        next
-                    end
-                    if method_namespace['model'] == nil
-                        next
-                    end
-                    if comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']] == nil
-                        comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']] = method_namespace['model']
-                    else
-                        comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']]['call'] += method_namespace['model']['call']
-                        comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']]['asgn'] += method_namespace['model']['asgn']
-                    end
+        def modelComp(ver_method_namespace)
+            comped_model = {} 
+            ver_method_namespace.each do |method_namespace|
+                if method_namespace == nil
+                    next
+                end
+                if method_namespace['model'] == nil
+                    next
+                end
+                if @comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']] == nil
+                    @comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']] = method_namespace['model']
+                else
+                    @comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']]['call'] += method_namespace['model']['call']
+                    @comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']]['asgn'] += method_namespace['model']['asgn']
+                    @comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']]['asgn'].uniq!
+                    @comped_model[method_namespace['namespace'] + ' ' + method_namespace['model']['name']]['call'].uniq!
                 end
             end
-            return comped_model
         end
 
 
