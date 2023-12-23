@@ -1,0 +1,19 @@
+{
+    "ActionMailbox TestHelper create_inbound_email_from_": 0.0014957524626874818,
+    "Message recipients": 0.0014957524626874818,
+    "Message x_original_to_addresses": 0.0014957524626874818,
+    "Message bcc_addresses": 0.0014957524626874818,
+    "Message cc_addresses": 0.0014957524626874818,
+    "Message to_addresses": 0.0014957524626874818,
+    "Message from_address": 0.0014957524626874818,
+    "Mail Message recipients": 0.0014957524626874818,
+    "Mail Message x_original_to_addresses": 0.0014957524626874818,
+    "Mail Message bcc_addresses": 0.0014957524626874818,
+    "Mail Message cc_addresses": 0.0014957524626874818,
+    "Mail Message to_addresses": 0.0014957524626874818,
+    "Mail Message from_address": 0.0014957524626874818,
+    "Mail Message x_forwarded_to_addresses": 0.0014957524626874818,
+    "ActionMailbox PostfixRelayer pos": 0.0014957524626874818,
+    "ActionMailbox Relayer pos": 0.0014957524626874818,
+    "ActionMailbox Base perform_processing": 0.0014957524626874818
+}

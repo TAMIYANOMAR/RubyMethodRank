@@ -1,0 +1,17 @@
+{
+    "ActiveSupport Deprecation warn": 0.017171167664854815,
+    "ActiveSupport JSON encod": 0.005202776328064893,
+    "ActiveSupport Notifications instrumen": 0.009333460063771152,
+    "ActiveSupport JSON decod": 0.0073210756797091265,
+    "Time to_": 0.004037711684660563,
+    "": 0.002703183093124696,
+    "Logger initializ": 0.002343072203345176,
+    "ActiveSupport TaggedLogging initializ": 0.002343072203345176,
+    "ActiveSupport Logger initializ": 0.002343072203345176,
+    "ActiveSupport ParameterFilter initializ": 0.0027667320736740227,
+    "_encode64": 0.005308691295647105,
+    "Inflector und": 0.0027667320736740227,
+    "Base64 decode64": 0.0027667320736740227,
+    "Array w": 0.003084476976420658,
+    "Array extract_options!": 0.002131242268180752
+}

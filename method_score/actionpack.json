@@ -1,0 +1,20 @@
+{
+    "[]": 0.2521329317492333,
+    "delete": 0.029711499826588682,
+    "[]=": 0.033948098529877145,
+    "Rack Request initialize": 0.002131242268180752,
+    "ActionDispatch Request initialize": 0.0027667320736740227,
+    "sser": 0.008592055290695668,
+    "reate": 0.002703183093124696,
+    "ActionDispatch Http Headers merge!": 0.001813497365434117,
+    "ActionDispatch Http Headers from_hash": 0.001813497365434117,
+    "Inflector underscore": 0.0027667320736740227,
+    "ActionView Base render_file": 0.001919412333016329,
+    "ActionView Base initialize": 0.002554902138509599,
+    "ActionView TemplateFinder process_view_paths": 0.002131242268180752,
+    "ActionView Base process_view_paths": 0.002554902138509599,
+    "Mime Type to_sym": 0.002131242268180752,
+    "Mime Type looku": 0.002131242268180752,
+    "ActionView MissingTemplate initialize": 0.001813497365434117,
+    "Mime []": 0.002131242268180752
+}

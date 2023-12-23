@@ -1,0 +1,9 @@
+{
+    "Mail Address initialize": 0.004673201490153833,
+    "Mail Encodings q_value_encode": 0.005308691295647105,
+    "Mail Part initialize": 0.0055205212308115275,
+    "Mail register_interceptor": 0.0027667320736740227,
+    "Mail register_observer": 0.0027667320736740227,
+    "Mail unregister_interceptor": 0.0027667320736740227,
+    "Mail unregister_observer": 0.0027667320736740227
+}
