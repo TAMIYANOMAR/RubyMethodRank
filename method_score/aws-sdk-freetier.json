@@ -1,0 +1,22 @@
+{
+    "FreeTier Resource clien": 2.9798944993812573e-06,
+    "FreeTier Resource initializ": 2.9798944993812573e-06,
+    "FreeTier Plugins Endpoints add_handl": 2.9798944993812573e-06,
+    "FreeTier Plugins Endpoints Handler parameters_for_operation": 2.9798944993812573e-06,
+    "FreeTier Plugins Endpoints Handler apply_endpoint_h": 2.9798944993812573e-06,
+    "FreeTier Plugins Endpoints Handler call": 2.9798944993812573e-06,
+    "FreeTier Errors ValidationException messag": 2.9798944993812573e-06,
+    "FreeTier Errors ValidationException initializ": 2.9798944993812573e-06,
+    "FreeTier Errors ThrottlingException messag": 2.9798944993812573e-06,
+    "FreeTier Errors ThrottlingException initializ": 2.9798944993812573e-06,
+    "FreeTier Errors InternalServerException messag": 2.9798944993812573e-06,
+    "FreeTier Errors InternalServerException initializ": 2.9798944993812573e-06,
+    "FreeTier Endpoints GetFreeTierUsage buil": 2.9798944993812573e-06,
+    "FreeTier EndpointProvider resolve_endpoin": 2.9798944993812573e-06,
+    "FreeTier initializ": 2.9798944993812573e-06,
+    "FreeTier Client errors_modul": 2.9798944993812573e-06,
+    "FreeTier Client waiter_nam": 2.9798944993812573e-06,
+    "FreeTier Client build_requ": 2.9798944993812573e-06,
+    "FreeTier Client get_free_tier_usag": 2.9798944993812573e-06,
+    "FreeTier Client initializ": 2.9798944993812573e-06
+}

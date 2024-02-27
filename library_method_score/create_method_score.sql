@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS method_score (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  lib_name TEXT NOT NULL,
+  method_name TEXT NOT NULL,
+  score TEXT NOT NULL
+);

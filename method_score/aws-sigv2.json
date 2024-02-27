@@ -1,0 +1,16 @@
+{
+    "Aws Sigv2 Signer extract_url": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer extract_http_method": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer extract_credentials_provider": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer param_list": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer uri_escape": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer uri_escape_path": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer path": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer host": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer string_to_sign": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer signature": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer sign_request": 2.9798944993812573e-06,
+    "Aws Sigv2 Signer initialize": 2.9798944993812573e-06,
+    "Aws Sigv2 StaticCredentialsProvider initialize": 2.9798944993812573e-06,
+    "Aws Sigv2 Credentials initialize": 2.9798944993812573e-06
+}

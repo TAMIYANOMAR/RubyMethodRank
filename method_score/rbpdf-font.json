@@ -1,0 +1,16 @@
+{
+    "RBPDFFontDescriptor getfontpath": 4.246359513104428e-06,
+    "RBPDFFontDescriptor define": 2.9798944993812573e-06,
+    "RBPDFFontDescri": 5.512824526827599e-06,
+    "CheckTTF": 2.9798944993812573e-06,
+    "ReadLong": 2.9798944993812573e-06,
+    "ReadSh": 2.9798944993812573e-06,
+    "SaveToFile": 2.9798944993812573e-06,
+    "MakeFontEncoding": 2.9798944993812573e-06,
+    "MakeWidthArray": 2.9798944993812573e-06,
+    "MakeFontDescri": 2.9798944993812573e-06,
+    "ReadAFM": 2.9798944993812573e-06,
+    "ReadUFM": 2.9798944993812573e-06,
+    "ReadMa": 2.9798944993812573e-06,
+    "MakeF": 2.9798944993812573e-06
+}

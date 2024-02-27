@@ -1,0 +1,9 @@
+{
+    "ActionDispatch XmlParamsParser logg": 2.9798944993812573e-06,
+    "ActionDispatch XmlParamsParser content_type_from_legacy_post_data_format_head": 2.9798944993812573e-06,
+    "ActionDispatch XmlParamsParser parse_formatted": 2.9798944993812573e-06,
+    "ActionDispatch XmlParamsP": 2.9798944993812573e-06,
+    "ActionDispatch XmlParamsParser initializ": 2.9798944993812573e-06,
+    "ActionPack XmlP": 2.9798944993812573e-06,
+    "ActionPack XmlParser reg": 2.9798944993812573e-06
+}

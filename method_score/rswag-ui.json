@@ -1,0 +1,23 @@
+{
+    "Rswag Ui conf": 2.9798944993812573e-06,
+    "Rswag Ui configure": 2.9798944993812573e-06,
+    "Rswag Ui Configuration swagger_endpoint": 2.9798944993812573e-06,
+    "Rswag Ui Configuration initialize": 2.9798944993812573e-06,
+    "Rswag Ui InstallGenerator add_route": 2.9798944993812573e-06,
+    "Rswag Ui InstallGenerator add_initialize": 2.9798944993812573e-06,
+    "Rswag Ui CustomGenerator add_custom_index": 2.9798944993812573e-06,
+    "Rswag Ui Middleware template_filename": 2.9798944993812573e-06,
+    "Rswag Ui Middleware render_template": 2.9798944993812573e-06,
+    "Rswag Ui Middleware index_path?": 2.9798944993812573e-06,
+    "Rswag Ui Middleware base_path?": 2.9798944993812573e-06,
+    "Rswag Ui Middleware call": 2.9798944993812573e-06,
+    "Rswag Ui Middleware initialize": 2.9798944993812573e-06,
+    "Rswag Ui Configuration get_bindin": 2.9798944993812573e-06,
+    "Rswag Ui Middleware csp": 2.9798944993812573e-06,
+    "Rswag Ui Configuration basic_auth_credential": 2.9798944993812573e-06,
+    "Rswag Ui BasicAuth base_path": 2.9798944993812573e-06,
+    "Rswag Ui BasicAuth env_matching_path": 2.9798944993812573e-06,
+    "Rswag Ui BasicAuth call": 2.9798944993812573e-06,
+    "Rswag Ui deprecato": 2.9798944993812573e-06,
+    "Rswag Ui Configuration openapi_endpoint": 2.9798944993812573e-06
+}

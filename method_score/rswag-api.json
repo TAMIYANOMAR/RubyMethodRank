@@ -1,0 +1,15 @@
+{
+    "Rswag Api conf": 2.9798944993812573e-06,
+    "Rswag Api configure": 2.9798944993812573e-06,
+    "Rswag Api Middleware load_json": 2.9798944993812573e-06,
+    "Rswag Api Middleware call": 2.9798944993812573e-06,
+    "Rswag Api Middleware initialize": 2.9798944993812573e-06,
+    "Rswag Api Configuration resolve_swagger_root": 2.9798944993812573e-06,
+    "Rswag Api InstallGenerator add_route": 2.9798944993812573e-06,
+    "Rswag Api InstallGenerator add_initialize": 2.9798944993812573e-06,
+    "Rswag Api Middleware unload_swagge": 2.9798944993812573e-06,
+    "Rswag Api Middleware load_yaml": 2.9798944993812573e-06,
+    "Rswag Api Middleware parse_file": 2.9798944993812573e-06,
+    "Rswag Api deprecato": 2.9798944993812573e-06,
+    "Rswag Api Configuration resolve_openapi_root": 2.9798944993812573e-06
+}

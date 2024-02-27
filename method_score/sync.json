@@ -1,0 +1,20 @@
+{
+    "Sync_m sync_try_lock_sub": 2.9798944993812573e-06,
+    "Sync_m initialize": 2.9798944993812573e-06,
+    "Sync_m sync_initialize": 2.9798944993812573e-06,
+    "Sync_m sync_inspect": 2.9798944993812573e-06,
+    "Sync_m sync_synchronize": 2.9798944993812573e-06,
+    "Sync_m sync_unlock": 2.9798944993812573e-06,
+    "Sync_m sync_lock": 2.9798944993812573e-06,
+    "Sync_m sync_try_lock": 2.9798944993812573e-06,
+    "Sync_m sync_exclusive?": 2.9798944993812573e-06,
+    "Sync_m sync_shared?": 2.9798944993812573e-06,
+    "Sync_m sync_locked?": 2.9798944993812573e-06,
+    "Sync_m sync_extend": 2.9798944993812573e-06,
+    "Sync_m extend_object": 2.9798944993812573e-06,
+    "Sync_m append_feature": 2.9798944993812573e-06,
+    "Sync_m define_aliase": 2.9798944993812573e-06,
+    "Sync_m Err LockModeFailer Fail": 2.9798944993812573e-06,
+    "Sync_m Err UnknownLocker Fail": 2.9798944993812573e-06,
+    "Sync_m Err Fail": 2.9798944993812573e-06
+}

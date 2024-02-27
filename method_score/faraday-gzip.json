@@ -1,0 +1,10 @@
+{
+    "Faraday Gzip Middleware raw_bo": 2.9798944993812573e-06,
+    "Faraday Gzip Middleware brotli_inflate": 2.9798944993812573e-06,
+    "Faraday Gzip Middleware inflate": 2.9798944993812573e-06,
+    "Faraday Gzip Middleware uncompress_": 2.9798944993812573e-06,
+    "Faraday Gzip Middleware reset_bo": 2.9798944993812573e-06,
+    "Faraday Gzip Middleware call": 2.9798944993812573e-06,
+    "Faraday Gzip Middleware supported_encodings": 2.9798944993812573e-06,
+    "Faraday Gzip Middleware optional_dependenc": 2.9798944993812573e-06
+}

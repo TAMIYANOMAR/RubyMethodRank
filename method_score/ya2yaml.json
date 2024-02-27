@@ -1,0 +1,18 @@
+{
+    "Object": 2.9798944993812573e-06,
+    "Ya2YAML yaml_escape": 2.9798944993812573e-06,
+    "Ya2YAML normalize_line_break": 2.9798944993812573e-06,
+    "Ya2YAML s_indent": 2.9798944993812573e-06,
+    "Ya2YAML is_one_plain_line?": 2.9798944993812573e-06,
+    "Ya2YAML is_one_line?": 2.9798944993812573e-06,
+    "Ya2YAML is_printable?": 2.9798944993812573e-06,
+    "Ya2YAML string_type": 2.9798944993812573e-06,
+    "Ya2YAML emit_base64_binar": 2.9798944993812573e-06,
+    "Ya2YAML emit_quoted_string": 2.9798944993812573e-06,
+    "Ya2YAML emit_block_string": 2.9798944993812573e-06,
+    "Ya2YAML emit_simple_string": 2.9798944993812573e-06,
+    "Ya2YAML emit_string": 2.9798944993812573e-06,
+    "Ya2YAML emit": 2.9798944993812573e-06,
+    "Ya2YAML _": 2.9798944993812573e-06,
+    "Ya2YAML initialize": 2.9798944993812573e-06
+}

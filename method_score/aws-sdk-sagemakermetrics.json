@@ -1,0 +1,17 @@
+{
+    "SageMakerMetrics Resource clien": 2.9798944993812573e-06,
+    "SageMakerMetrics Resource initializ": 2.9798944993812573e-06,
+    "SageMakerMetrics Plugins Endpoints add_handl": 2.9798944993812573e-06,
+    "SageMakerMetrics Plugins Endpoints Handler parameters_for_operation": 2.9798944993812573e-06,
+    "SageMakerMetrics Plugins Endpoints Handler apply_endpoint_h": 2.9798944993812573e-06,
+    "SageMakerMetrics Plugins Endpoints Handler call": 2.9798944993812573e-06,
+    "SageMakerMetrics Endpoints BatchPutMetrics buil": 2.9798944993812573e-06,
+    "SageMakerMetrics EndpointProvider resolve_endpoin": 2.9798944993812573e-06,
+    "SageMakerMetrics EndpointProvider initializ": 2.9798944993812573e-06,
+    "SageMakerMetrics initializ": 2.9798944993812573e-06,
+    "SageMakerMetrics Client errors_modul": 2.9798944993812573e-06,
+    "SageMakerMetrics Client waiter_n": 2.9798944993812573e-06,
+    "SageMakerMetrics Client build_requ": 2.9798944993812573e-06,
+    "SageMakerMetrics Client batch_put_": 2.9798944993812573e-06,
+    "SageMakerMetrics Client initializ": 2.9798944993812573e-06
+}

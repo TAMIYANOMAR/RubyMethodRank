@@ -1,0 +1,15 @@
+{
+    "GCM build_post_body": 2.9798944993812573e-06,
+    "GCM send_notification": 2.9798944993812573e-06,
+    "GCM initialize": 2.9798944993812573e-06,
+    "GCM build_response": 2.9798944993812573e-06,
+    "GCM has_canonical_id?": 2.9798944993812573e-06,
+    "GCM build_canonical_ids": 2.9798944993812573e-06,
+    "GCM remove_registration_ids": 2.9798944993812573e-06,
+    "GCM add_registration_ids": 2.9798944993812573e-06,
+    "GCM create_notification_key": 2.9798944993812573e-06,
+    "GCM is_not_registered?": 2.9798944993812573e-06,
+    "GCM build_not_registered_ids": 2.9798944993812573e-06,
+    "GCM send_with_notification_key": 2.9798944993812573e-06,
+    "GCM send_to_topi": 2.9798944993812573e-06
+}

@@ -3,7 +3,8 @@ require 'csv'
 require 'json'
 module LibraryMethodMap
     class Creator
-        
+        PluginPath = File.expand_path('../../../redmine_plugins', __FILE__)
+        PlguinDependencyPath = File.expand_path('../../../RedminePluginCompatibilityResolver/plugin_json_folder', __FILE__)
         GemPath = File.expand_path('../../../gem_packages', __FILE__)
         LibJsonPath = File.expand_path('../../../RubyLibrarySetResolver/library_json_folder',__FILE__)
         LibHavePath = File.expand_path('../../../RubyLibrarySetResolver/lib_have',__FILE__)
@@ -12,51 +13,95 @@ module LibraryMethodMap
         EdgePath = File.expand_path('../../edge/edges.json',__FILE__)
         DumpedCSVPath = File.expand_path('../../edge/dumped.csv',__FILE__)
 
-        def initialize(create_node)
-            @lib_haves = {}
-            library_names = getLibs()
-            if create_node
-                library_names.each do |libname,versions|
-                    if dumped?(libname)
-                        next
+        def initialize(create_node = false,plugin = true)
+            if plugin
+                plugin_names = getPlugins(PluginPath)
+                if create_node
+                    depend_libs = []
+                    plugin_names.each do |plugin_name,versions|
+                        pp plugin_name
+                        depend_libs = getPluginDependLibs(plugin_name)
+                        if depend_libs == nil or depend_libs == []
+                            next
+                        end
+                        @comped_model = {}
+                        versions.each do |version|
+                            ver_model = getMethodNamespace(getPluginModel(plugin_name,version))
+                            modelComp(ver_model)
+                        end
+                        linkAsgn(@comped_model)
+                        dumpCompedModel("#"+plugin_name,@comped_model)
                     end
-                    pp libname
-                    @comped_model = {}
-                    versions.each do |version|
-                        pp version
-                        ver_model = getMethodNamespace(createLibModel("#{libname}-#{version}"))
-                        modelComp(ver_model)
-                        pp @comped_model.keys()
+                else
+                    plugin_names.each do |plugin_name,versions|
+                        pp plugin_name
+                        if edgeDumped?("#"+plugin_name)
+                            next
+                        end
+                        edges = []
+                        depend_libs = getPluginDependLibs(plugin_name)
+                        if depend_libs == nil or depend_libs == []
+                            next
+                        end
+                        plugin_model = loadCompedModel("#"+plugin_name)
+                        if depend_libs == nil
+                            next
+                        end
+                        depend_libs.each do |depend_lib|
+                            pp "depend_lib:#{depend_lib}"
+                            depend_model = loadCompedModel(depend_lib)
+                            if depend_model == nil
+                                next
+                            end
+                            edges += getMethodEdge(plugin_model,depend_model,"#"+plugin_name,depend_lib)
+                        end
+                        dumpEdges(edges,"#"+plugin_name)
+                        file = File.open(DumpedCSVPath,'a')
+                        file.puts("#"+plugin_name)
                     end
-                    linkAsgn(@comped_model)
-                    dumpCompedModel(libname,@comped_model)
+                end
+            else
+                library_names = getLibs()
+                if create_node
+                    library_names.each do |libname,versions|
+                        if dumped?(libname)
+                            next
+                        end
+                        pp libname
+                        @comped_model = {}
+                        versions.each do |version|
+                            pp version
+                            ver_model = getMethodNamespace(createLibModel("#{libname}-#{version}"))
+                            modelComp(ver_model)
+                            pp @comped_model.keys()
+                        end
+                        linkAsgn(@comped_model)
+                        dumpCompedModel(libname,@comped_model)
+                    end  
+                else
+                    library_names.each do |libname,versions|
+                        pp "libname:#{libname}"
+                        if edgeDumped?(libname)
+                            next
+                        end
+                        edges = []
+                        lib_model = loadCompedModel(libname)
+                        depend_libs = getDependLibs(libname)
+                        
+                        if depend_libs == nil
+                            next
+                        end
+                        depend_libs.each do |depend_lib|
+                            pp "depend_lib:#{depend_lib}"
+                            depend_model = loadCompedModel(depend_lib)
+                            edges += getMethodEdge(lib_model,depend_model,libname,depend_lib)
+                        end
+                        dumpEdges(edges,libname)
+                        file = File.open(DumpedCSVPath,'a')
+                        file.puts(libname)
+                    end
                 end
             end
-            if create_node == false
-                library_names.each do |libname,versions|
-                    pp "libname:#{libname}"
-                    if edgeDumped?(libname)
-                        next
-                    end
-                    edges = []
-                    lib_model = loadCompedModel(libname)
-                    depend_libs = getDependLibs(libname)
-                    
-                    if depend_libs == nil
-                        next
-                    end
-                    depend_libs.each do |depend_lib|
-                        pp "depend_lib:#{depend_lib}"
-                        depend_model = loadCompedModel(depend_lib)
-                        edges += getMethodEdge(lib_model,depend_model,libname,depend_lib)
-                    end
-                    dumpEdges(edges,libname)
-                    file = File.open(DumpedCSVPath,'a')
-                    file.puts(libname)
-                end
-            end
-            
-
         end
 
         def edgeDumped?(libname)
@@ -82,7 +127,11 @@ module LibraryMethodMap
         end
 
         def loadCompedModel(lib_name)
-            json_file = File.read("#{CompedModelPath}/#{lib_name}.json")
+            begin
+                json_file = File.read("#{CompedModelPath}/#{lib_name}.json")
+            rescue
+                return nil
+            end
             comped_model = JSON.parse(json_file)
             return comped_model
         end
@@ -102,6 +151,49 @@ module LibraryMethodMap
             else
                 return false
             end
+        end
+
+        def getPlugins(plugin_path)
+            plugins = {}
+            Dir.glob("#{plugin_path}/*").each do |plugin|
+                plugin_name = File.basename(plugin)
+                versions = []
+                Dir.glob("#{plugin_path}/#{plugin_name}/*").each do |version|
+                    versions << File.basename(version)
+                end
+                plugins[plugin_name] = versions
+            end
+            return plugins
+        end
+        def getPluginModel(plugin_name,version)
+            plugin_model = {'plugin_name' => plugin_name, 'version' => version, 'model' => []}
+            plugin_asts = []
+            Dir.glob("#{PluginPath}/#{plugin_name}/#{version}/lib/**/*.rb").each do |file|
+                begin
+                    plugin_asts << Parser::CurrentRuby.parse(File.read(file))
+                rescue
+                    next
+                end
+            end
+            plugin_asts.each do |ast|
+                getModel(ast,plugin_model['model'])
+            end
+            return plugin_model
+        end
+        def getPluginDependLibs(plugin_name)
+            depend_libs = []
+            begin
+                json_file = File.read("#{PlguinDependencyPath}/#{plugin_name}.json")
+            rescue
+                return []
+            end
+            json = JSON.parse(json_file)
+            json['versions'].each do |vers_and_deps|
+                vers_and_deps['dependencies'].each do |dependency|
+                    depend_libs << dependency['name']
+                end
+            end
+            return depend_libs.uniq!
         end
 
         def getMethodEdge(lib,lib_depend,libname,lib_depend_name)

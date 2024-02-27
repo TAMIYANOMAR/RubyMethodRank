@@ -1,0 +1,11 @@
+{
+    "String to_utf8!": 2.9798944993812573e-06,
+    "String to_utf8": 2.9798944993812573e-06,
+    "HBLText Setter get_charset_from_tag": 2.9798944993812573e-06,
+    "HBLText Setter get_chars": 2.9798944993812573e-06,
+    "HBLText Setter convert_encoding": 2.9798944993812573e-06,
+    "HBLText Setter to_utf8": 2.9798944993812573e-06,
+    "HBLText IDMaker abbreviation": 2.9798944993812573e-06,
+    "HBLText IDMaker find_identifier": 2.9798944993812573e-06,
+    "HBLText IDMaker make_identifier": 2.9798944993812573e-06
+}

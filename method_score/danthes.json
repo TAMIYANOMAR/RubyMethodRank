@@ -1,0 +1,23 @@
+{
+    "Danthes Generators Base add_gem": 2.9798944993812573e-06,
+    "Danthes Generators Base banner": 2.9798944993812573e-06,
+    "Danthes Generators Base source_roo": 2.9798944993812573e-06,
+    "Danthes Generators RedisInstallGenerator add_redis_gem": 2.9798944993812573e-06,
+    "Danthes Generators RedisInstallGenerator copy_fil": 2.9798944993812573e-06,
+    "Danthes Generators InstallGenerator copy_fil": 2.9798944993812573e-06,
+    "Danthes faye_app": 2.9798944993812573e-06,
+    "Danthes signature_expired?": 2.9798944993812573e-06,
+    "Danthes subscriptio": 2.9798944993812573e-06,
+    "Danthes server_url": 2.9798944993812573e-06,
+    "Danthes messag": 2.9798944993812573e-06,
+    "Danthes publish_messag": 2.9798944993812573e-06,
+    "Danthes publish_to": 2.9798944993812573e-06,
+    "Danthes load_redis_config": 2.9798944993812573e-06,
+    "Danthes load_config": 2.9798944993812573e-06,
+    "Danthes startup": 2.9798944993812573e-06,
+    "Danthes ViewHelpers subscribe_to": 2.9798944993812573e-06,
+    "Danthes ViewHelpers publish_to": 2.9798944993812573e-06,
+    "Danthes FayeExtension authenticate_publi": 2.9798944993812573e-06,
+    "Danthes FayeExtension authenticate_subscrib": 2.9798944993812573e-06,
+    "Danthes FayeExtension incoming": 2.9798944993812573e-06
+}

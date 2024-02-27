@@ -1,0 +1,20 @@
+{
+    "WebSocket Extensions reserved?": 2.9798944993812573e-06,
+    "WebSocket Extensions reserv": 2.9798944993812573e-06,
+    "WebSocket Extensions cl": 2.9798944993812573e-06,
+    "WebSocket Extensions process_outgoing_messag": 2.9798944993812573e-06,
+    "WebSocket Extensions process_incoming_messag": 2.9798944993812573e-06,
+    "WebSocket Extensions valid_frame_rsv": 2.9798944993812573e-06,
+    "WebSocket Extensions generate_resp": 2.9798944993812573e-06,
+    "WebSocket Extensions activa": 2.9798944993812573e-06,
+    "WebSocket Extensions generate_offer": 2.9798944993812573e-06,
+    "WebSocket Extensions add": 2.9798944993812573e-06,
+    "WebSocket Extensions initializ": 5.512824526827599e-06,
+    "WebSocket Extensions Offers to_a": 2.9798944993812573e-06,
+    "WebSocket Extensions Offers by_nam": 2.9798944993812573e-06,
+    "WebSocket Extensions Offers each_offer": 2.9798944993812573e-06,
+    "WebSocket Extensions Offers push": 2.9798944993812573e-06,
+    "WebSocket Extensions Offers initializ": 2.9798944993812573e-06,
+    "WebSocket Extensions Parser serialize_param": 2.9798944993812573e-06,
+    "WebSocket Extensions Parser parse_header": 2.9798944993812573e-06
+}

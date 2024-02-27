@@ -1,0 +1,18 @@
+{
+    "Faraday Adapter NetHttp ssl_verify_mo": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp ssl_cert_sto": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp configure_reques": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp configure_ssl": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp request_via_request_metho": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp request_via_get_metho": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp request_with_wrapped_block": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp perform_reques": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp create_reques": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp call": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp net_http_connectio": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp build_connectio": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp initializ": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp encoded_bo": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp verify_hostname_enabled?": 2.9798944993812573e-06,
+    "Faraday Adapter NetHttp save_http_respons": 2.9798944993812573e-06
+}

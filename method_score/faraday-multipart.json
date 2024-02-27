@@ -1,0 +1,22 @@
+{
+    "Faraday Multipart ParamPart headers": 2.9798944993812573e-06,
+    "Faraday Multipart ParamPart to_": 2.9798944993812573e-06,
+    "Faraday Multipart ParamPart initialize": 2.9798944993812573e-06,
+    "Faraday Multipart Middleware process_params": 2.9798944993812573e-06,
+    "Faraday Multipart Middleware unique_boun": 2.9798944993812573e-06,
+    "Faraday Multipart Middleware": 2.9798944993812573e-06,
+    "Faraday Multipart Middleware create_": 2.9798944993812573e-06,
+    "Faraday Multipart Middleware has_multipart?": 2.9798944993812573e-06,
+    "Faraday Multipart Middleware process_request?": 2.9798944993812573e-06,
+    "Faraday Multipart Middleware c": 2.9798944993812573e-06,
+    "Faraday Multipart Middleware initialize": 2.9798944993812573e-06,
+    "Faraday Multipart CompositeReadIO advance_io": 2.9798944993812573e-06,
+    "Faraday Multipart CompositeReadIO current_io": 2.9798944993812573e-06,
+    "Faraday Multipart CompositeReadIO ensure_open_and_readable": 2.9798944993812573e-06,
+    "Faraday Multipart CompositeReadIO close": 2.9798944993812573e-06,
+    "Faraday Multipart CompositeReadIO re": 2.9798944993812573e-06,
+    "Faraday Multipart CompositeReadIO rewin": 2.9798944993812573e-06,
+    "Faraday Multipart CompositeReadIO length": 2.9798944993812573e-06,
+    "Faraday Multipart CompositeReadIO initialize": 2.9798944993812573e-06,
+    "Faraday Multipart multipart_post_version": 2.9798944993812573e-06
+}

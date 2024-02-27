@@ -1,0 +1,11 @@
+{
+    "Unaccent via_split_map": 2.9798944993812573e-06,
+    "Unaccent via_each_char": 2.9798944993812573e-06,
+    "Unaccent via_s": 2.9798944993812573e-06,
+    "Unaccent via_gsub": 2.9798944993812573e-06,
+    "U": 5.512824526827599e-06,
+    "Unaccent String unaccent_via_split_map": 2.9798944993812573e-06,
+    "Unaccent String unaccent_via_each_char": 2.9798944993812573e-06,
+    "Unaccent String unaccent_via_gsub": 2.9798944993812573e-06,
+    "Unaccent String": 2.9798944993812573e-06
+}

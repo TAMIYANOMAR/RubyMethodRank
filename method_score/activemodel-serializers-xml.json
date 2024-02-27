@@ -1,0 +1,19 @@
+{
+    "ActiveRecord XmlSerializer Attribute compute_typ": 2.9798944993812573e-06,
+    "ActiveRecord Serialization to_": 2.9798944993812573e-06,
+    "ActiveModel eager_load!": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml from_": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml to_": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer add_p": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer add_association": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer add_inclu": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer add_attributes_and_meth": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer add_extra_beh": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml S": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer serializable_collection": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer serializable_hash": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer in": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer Attribute compute_typ": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer Attribute decoration": 2.9798944993812573e-06,
+    "ActiveModel Serializers Xml Serializer Attribute in": 2.9798944993812573e-06
+}

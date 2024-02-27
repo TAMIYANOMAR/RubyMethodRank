@@ -1,0 +1,20 @@
+{
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation provisioning_ur": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation authen": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword ClassMethods has_one_time_passwor": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation otp_column=": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation otp_column": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation otp_regenerate_secr": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation otp_counter=": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation otp_counter": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation otp_regenerate_counter": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation serializable_hash": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword ClassMethods otp_random_secr": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation authenticate_backu": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation backup_codes_enabled?": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation otp_regenerate_backup_codes": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation h": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation authenticate_h": 2.9798944993812573e-06,
+    "ActiveModel OneTimePassword InstanceMethodsOnActivation otp_after_column_name_enabled?": 2.9798944993812573e-06
+}

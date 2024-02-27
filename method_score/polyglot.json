@@ -1,0 +1,8 @@
+{
+    "Kernel require": 2.9798944993812573e-06,
+    "Polyglot find": 2.9798944993812573e-06,
+    "Polyglot register": 2.9798944993812573e-06,
+    "Polyglot load": 2.9798944993812573e-06,
+    "Polyglot NestedLoadError reraise": 2.9798944993812573e-06,
+    "Polyglot NestedLoadError initialize": 2.9798944993812573e-06
+}

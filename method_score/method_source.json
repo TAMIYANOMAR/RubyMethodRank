@@ -1,0 +1,23 @@
+{
+    "MethodSource MethodExtension": 2.9798944993812573e-06,
+    "MethodSource source_help": 6.779289540550769e-06,
+    "MethodSource supp": 2.9798944993812573e-06,
+    "MethodSource valid_expression?": 2.9798944993812573e-06,
+    "MethodSource MethodExtensions commen": 2.9798944993812573e-06,
+    "MethodSource comment_help": 6.779289540550769e-06,
+    "MethodSource SourceLocation UnboundMethodExtensions source_location": 2.9798944993812573e-06,
+    "MethodSource SourceLocation MethodExtensions source_location": 2.9798944993812573e-06,
+    "MethodSource SourceLocation MethodExtensions trace_fun": 2.9798944993812573e-06,
+    "MethodSource MethodExtensions incl": 2.9798944993812573e-06,
+    "MethodSource SourceLocation ProcExtensions source_location": 2.9798944993812573e-06,
+    "MethodSource ReeSourceLocation source_location": 2.9798944993812573e-06,
+    "MethodSource extra": 2.9798944993812573e-06,
+    "MethodSource lines_f": 2.9798944993812573e-06,
+    "MethodSource CodeHelpers IncompleteExpression ===": 2.9798944993812573e-06,
+    "MethodSource CodeHelpers extract_last_commen": 2.9798944993812573e-06,
+    "MethodSource CodeHelpers extract_first_expression": 2.9798944993812573e-06,
+    "MethodSource CodeHelpers complete_expression?": 2.9798944993812573e-06,
+    "MethodSource CodeHelpers comment_describing": 2.9798944993812573e-06,
+    "MethodSource CodeHelpers expression_a": 2.9798944993812573e-06,
+    "MethodSource CodeHelpers IncompleteExpression rbx?": 2.9798944993812573e-06
+}

@@ -1,0 +1,23 @@
+{
+    "RedminePluginPatch warn_abou": 2.9798944993812573e-06,
+    "RedminePluginPatch gemfile_path": 2.9798944993812573e-06,
+    "RedminePluginPatch requires_acts_as_taggable_on?": 2.9798944993812573e-06,
+    "RedminePluginPatch requ": 2.9798944993812573e-06,
+    "Migration current_plugin_declaration_made?": 2.9798944993812573e-06,
+    "Migration enforce_declarations!": 2.9798944993812573e-06,
+    "Migration ok_to_go_down?": 2.9798944993812573e-06,
+    "Migration requiring_plu": 2.9798944993812573e-06,
+    "Migration performed?": 2.9798944993812573e-06,
+    "Migration dow": 2.9798944993812573e-06,
+    "Migration up": 2.9798944993812573e-06,
+    "RedmineActsAsTaggableOn initializ": 2.9798944993812573e-06,
+    "RedminePluginPatch using_acts_as_taggable_on_tables?": 2.9798944993812573e-06,
+    "Migration plugins_still_u": 2.9798944993812573e-06,
+    "Migration expected_taggings_structu": 2.9798944993812573e-06,
+    "Migration expected_tags_structu": 2.9798944993812573e-06,
+    "Migration obtain_structu": 2.9798944993812573e-06,
+    "Migration assert_schema_match!": 2.9798944993812573e-06,
+    "Migration ok_to_go_up?": 2.9798944993812573e-06,
+    "Migration check_for_old_style_plu": 2.9798944993812573e-06,
+    "Migration current_plu": 2.9798944993812573e-06
+}

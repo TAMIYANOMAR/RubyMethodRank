@@ -1,2 +1,2 @@
-require 'creator'
-LibraryMethodMap::Creator.new(false)
+require './creator'
+LibraryMethodMap::Creator.new()

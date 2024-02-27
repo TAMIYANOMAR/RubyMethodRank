@@ -1,0 +1,21 @@
+{
+    "Libv8 libv8_source_path": 2.9798944993812573e-06,
+    "Libv8 libv8_include_path": 2.9798944993812573e-06,
+    "Libv8 libv8_include_flags": 2.9798944993812573e-06,
+    "Libv8 libv8_ldflags": 2.9798944993812573e-06,
+    "Libv8 libv8_objects": 2.9798944993812573e-06,
+    "Libv8 libv8_nosnapshot": 2.9798944993812573e-06,
+    "Libv8 libv8_snapshot": 2.9798944993812573e-06,
+    "Libv8 libv8_base": 2.9798944993812573e-06,
+    "Libv8 libv8_object": 2.9798944993812573e-06,
+    "Libv8 configure_makefile": 2.9798944993812573e-06,
+    "Libv8 libv8_profile": 2.9798944993812573e-06,
+    "Libv8 config": 2.9798944993812573e-06,
+    "Libv8 include_path": 2.9798944993812573e-06,
+    "Libv8 library_path": 2.9798944993812573e-06,
+    "x64?": 2.9798944993812573e-06,
+    "rubinius?": 2.9798944993812573e-06,
+    "x86_64_from_arch_flag": 2.9798944993812573e-06,
+    "x86_64_from_byte_length": 2.9798944993812573e-06,
+    "x86_64_from_build_cpu": 2.9798944993812573e-06
+}

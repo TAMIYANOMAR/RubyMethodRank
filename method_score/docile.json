@@ -1,0 +1,15 @@
+{
+    "Docile dsl_eva": 8.045754554273942e-06,
+    "Docile FallbackContextProxy __proxy_method__": 2.9798944993812573e-06,
+    "Docile FallbackContextProxy method_missing": 2.9798944993812573e-06,
+    "Docile FallbackContextProxy instance_variables": 2.9798944993812573e-06,
+    "Docile FallbackContextProxy sub": 2.9798944993812573e-06,
+    "Docile FallbackContextProxy": 2.9798944993812573e-06,
+    "Docile FallbackContextProxy initializ": 2.9798944993812573e-06,
+    "Docile dsl_eval_immutab": 2.9798944993812573e-06,
+    "Docile Execution exec_in_proxy_context": 2.9798944993812573e-06,
+    "Docile ChainingFallbackContextProxy method_missing": 2.9798944993812573e-06,
+    "Docile dsl_eval_with_block_return": 2.9798944993812573e-06,
+    "Docile BacktraceFilter backtrace_locations": 2.9798944993812573e-06,
+    "Docile BacktraceFilter backtra": 2.9798944993812573e-06
+}

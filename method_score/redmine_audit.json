@@ -1,0 +1,15 @@
+{
+    "RedmineAudit Database parse_tds": 2.9798944993812573e-06,
+    "RedmineAudit Database fetch_advisory": 2.9798944993812573e-06,
+    "RedmineAudit Database advisories": 2.9798944993812573e-06,
+    "RedmineAudit Advisory vulnerable?": 2.9798944993812573e-06,
+    "RedmineAudit Advisory fixed?": 2.9798944993812573e-06,
+    "RedmineAudit Advisory unaffected?": 2.9798944993812573e-06,
+    "RedmineAudit PluginDatabase fetch_advisory": 2.9798944993812573e-06,
+    "RedmineAudit PluginDatabase advisories": 2.9798944993812573e-06,
+    "RedmineAudit cvss_to_severity": 2.9798944993812573e-06,
+    "RedmineAudit vulnerable?": 2.9798944993812573e-06,
+    "RedmineAudit fixed?": 2.9798944993812573e-06,
+    "RedmineAudit unaffected?": 2.9798944993812573e-06,
+    "RedmineAudit initializ": 2.9798944993812573e-06
+}

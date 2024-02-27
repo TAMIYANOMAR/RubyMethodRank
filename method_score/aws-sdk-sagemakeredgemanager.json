@@ -1,0 +1,23 @@
+{
+    "SagemakerEdgeManager Resource client": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Resource initializ": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Errors InternalServiceExceptio": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Errors InternalServiceException initializ": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Client errors_modul": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Client waiter_": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Client build_request": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Client send_heartbeat": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Client get_device_registratio": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Client initializ": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Client get_deployment": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Plugins Endpoints add_handl": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Plugins Endpoints Handler parameters_for_operatio": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Plugins Endpoints Handler apply_endpoint_h": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Plugins Endpoints Handler call": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Endpoints SendHeartbeat buil": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Endpoints GetDeviceRegistration buil": 2.9798944993812573e-06,
+    "SagemakerEdgeManager Endpoints GetDeployments buil": 2.9798944993812573e-06,
+    "SagemakerEdgeManager EndpointProvider resolve_endpoint": 2.9798944993812573e-06,
+    "SagemakerEdgeManager EndpointProvider initializ": 2.9798944993812573e-06,
+    "SagemakerEdgeManager initializ": 2.9798944993812573e-06
+}

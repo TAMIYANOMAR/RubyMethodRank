@@ -1,0 +1,23 @@
+{
+    "RubyAudit Scanner osv": 2.9798944993812573e-06,
+    "RubyAudit Scanner cve": 2.9798944993812573e-06,
+    "RubyAudit Scanner scan_inne": 2.9798944993812573e-06,
+    "RubyAudit Scanner rubygems_version": 2.9798944993812573e-06,
+    "RubyAudit Scanner ruby_version": 2.9798944993812573e-06,
+    "RubyAudit Scanner scan_rubygems": 2.9798944993812573e-06,
+    "RubyAudit Scanner scan": 2.9798944993812573e-06,
+    "RubyAudit Scanner initialize": 2.9798944993812573e-06,
+    "RubyAudit Scanner Version initialize": 2.9798944993812573e-06,
+    "RubyAudit Database each_advisory_path_fo": 2.9798944993812573e-06,
+    "RubyAudit Database each_advisory_path": 2.9798944993812573e-06,
+    "RubyAudit Database stale": 2.9798944993812573e-06,
+    "RubyAudit Database check": 2.9798944993812573e-06,
+    "RubyAudit Database check_l": 2.9798944993812573e-06,
+    "RubyAudit Database advisories_fo": 2.9798944993812573e-06,
+    "RubyAudit CLI check_for_stale_database": 2.9798944993812573e-06,
+    "RubyAudit CLI version": 2.9798944993812573e-06,
+    "RubyAudit CLI update": 2.9798944993812573e-06,
+    "RubyAudit CLI check": 2.9798944993812573e-06,
+    "RubyAudit CLI print_adviso": 2.9798944993812573e-06,
+    "RubyAudit CLI s": 2.9798944993812573e-06
+}

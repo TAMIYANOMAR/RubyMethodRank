@@ -1,0 +1,17 @@
+{
+    "RequestStore Middleware call": 2.9798944993812573e-06,
+    "RequestStore Middleware initializ": 2.9798944993812573e-06,
+    "RequestS": 6.779289540550769e-06,
+    "RequestStore clear!": 2.9798944993812573e-06,
+    "RequestStore fetch": 2.9798944993812573e-06,
+    "RequestStore exist?": 2.9798944993812573e-06,
+    "RequestStore []=": 2.9798944993812573e-06,
+    "RequestStore wri": 2.9798944993812573e-06,
+    "RequestStore []": 6.779289540550769e-06,
+    "RequestStore read": 2.9798944993812573e-06,
+    "RequestStore del": 2.9798944993812573e-06,
+    "RequestStore active?": 2.9798944993812573e-06,
+    "RequestStore end!": 2.9798944993812573e-06,
+    "RequestStore begin!": 2.9798944993812573e-06,
+    "RequestStore store=": 2.9798944993812573e-06
+}

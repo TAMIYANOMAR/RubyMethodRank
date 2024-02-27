@@ -1,0 +1,23 @@
+{
+    "gs": 2.5776264746398332e-05,
+    "Bindex Rubinius InternalLocationFilter filter": 2.9798944993812573e-06,
+    "Bindex Rubinius InternalLocationFilter initializ": 2.9798944993812573e-06,
+    "Bindex Rubinius current_bindings": 2.9798944993812573e-06,
+    "current_bindings": 4.246359513104428e-06,
+    "Skiptrace Rubinius InternalLocationFilter filter": 2.9798944993812573e-06,
+    "Skiptrace Rubinius InternalLocationFilter initializ": 2.9798944993812573e-06,
+    "Skiptrace Location to_s": 2.9798944993812573e-06,
+    "Skiptrace Location lineno": 2.9798944993812573e-06,
+    "Skiptrace Location label": 2.9798944993812573e-06,
+    "Skiptrace Location inspect": 2.9798944993812573e-06,
+    "Skiptrace Location base_label": 2.9798944993812573e-06,
+    "Skiptrace Location absolute_path": 2.9798944993812573e-06,
+    "Skiptrace Location initializ": 2.9798944993812573e-06,
+    "Exception binding_locations": 2.9798944993812573e-06,
+    "Skiptrace BindingLocations respond_to_missing?": 2.9798944993812573e-06,
+    "Skiptrace BindingLocations method_missing": 2.9798944993812573e-06,
+    "Skiptrace BindingLocations guess_binding_arou": 2.9798944993812573e-06,
+    "Skiptrace BindingLocations cached_locatio": 2.9798944993812573e-06,
+    "Skiptrace BindingLocations initializ": 2.9798944993812573e-06,
+    "Binding source_locatio": 2.9798944993812573e-06
+}

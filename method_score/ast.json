@@ -1,0 +1,23 @@
+{
+    "AST Sexp": 2.9798944993812573e-06,
+    "AST Processor handler_missing": 2.9798944993812573e-06,
+    "AST Processor process_all": 2.9798944993812573e-06,
+    "AST Processor proce": 2.9798944993812573e-06,
+    "AST Node fancy_type": 2.9798944993812573e-06,
+    "AST Node to_": 2.9798944993812573e-06,
+    "AST Node to_sexp": 2.9798944993812573e-06,
+    "AST Node append": 2.9798944993812573e-06,
+    "AST Node conc": 2.9798944993812573e-06,
+    "AST Node ==": 2.9798944993812573e-06,
+    "AST Node updated": 2.9798944993812573e-06,
+    "AST Node dup": 2.9798944993812573e-06,
+    "AST Node assign_propertie": 2.9798944993812573e-06,
+    "AST Node initialize": 8.045754554273942e-06,
+    "AST Node eql?": 2.9798944993812573e-06,
+    "AST Processor Mixin handler_missing": 2.9798944993812573e-06,
+    "AST Processor Mixin process_all": 2.9798944993812573e-06,
+    "AST Processor Mixin proce": 2.9798944993812573e-06,
+    "AST Node inspec": 2.9798944993812573e-06,
+    "AST Node to_sexp_array": 2.9798944993812573e-06,
+    "AST Node deconstruc": 2.9798944993812573e-06
+}

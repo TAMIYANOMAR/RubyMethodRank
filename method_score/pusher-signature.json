@@ -1,0 +1,22 @@
+{
+    "Pusher Signature Request identical?": 2.9798944993812573e-06,
+    "Pusher Signature Request validate_signature!": 2.9798944993812573e-06,
+    "Pusher Signature Request validate_timestamp!": 2.9798944993812573e-06,
+    "Pusher Signature Request validate_version!": 2.9798944993812573e-06,
+    "Pusher Signature Request parameter_": 2.9798944993812573e-06,
+    "Pusher Signature Request string_to_": 2.9798944993812573e-06,
+    "Pusher Signature Req": 3.6131270062428428e-06,
+    "Pusher Signature Request signed_param": 3.6131270062428428e-06,
+    "Pusher Signature Request auth_": 2.9798944993812573e-06,
+    "Pusher Signature Request authenticate_async": 2.9798944993812573e-06,
+    "Pusher Signature Request authentic": 2.9798944993812573e-06,
+    "Pusher Signature Request authenticate_by_tok": 2.9798944993812573e-06,
+    "Pusher Signature Request authenticate_by_token!": 2.9798944993812573e-06,
+    "Pusher Signature Request initializ": 3.6131270062428428e-06,
+    "Pusher Signature Tok": 2.9798944993812573e-06,
+    "Pusher Signature Token initializ": 5.512824526827599e-06,
+    "Pusher Signature QueryEncoder bytesiz": 2.9798944993812573e-06,
+    "Pusher Signature QueryEncoder esc": 2.9798944993812573e-06,
+    "Pusher Signature QueryEncoder encode_param_without_esc": 2.9798944993812573e-06,
+    "Pusher Signature QueryEncoder encode_param": 2.9798944993812573e-06
+}
